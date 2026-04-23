@@ -4,9 +4,9 @@ const { vezJogar, consultar, remover, adicionar } = require('./controladores/rod
 const rotas = express();
 
 rotas.get("/", vezJogar);
-rotas.get("/consultar", vezJogar);
-rotas.get("/remover", vezJogar);
-rotas.get("/adicionar", vezJogar);
+rotas.get("/consultar",consultar );
+rotas.get("/remover",remover );
+rotas.get("/adicionar",adicionar  );
  
 
 
